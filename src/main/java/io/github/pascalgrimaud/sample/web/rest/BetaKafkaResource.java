@@ -42,7 +42,7 @@ public class BetaKafkaResource {
     }
 
     @PostMapping("/consumers")
-    public void createConsumer(@RequestParam String name, @RequestParam("topic") List<String> topics, @RequestParam Map<String, String> params) {
+    public void createConsumer(@RequestParam String name, @RequestParam("topic") List<String> topics, @RequestParam(required = false) Map<String, String> params) {
         log.debug("REST request to create a Kafka consumer {} of Kafka topics {}", name, topics);
         Map<String, Object> consumerProps = kafkaProperties.getConsumerProps();
         consumerProps.putAll(params);
