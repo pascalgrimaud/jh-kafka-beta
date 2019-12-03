@@ -1,0 +1,59 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "io.github.pascalgrimaud.sample",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.5.1",
+    "applicationType": "monolith",
+    "baseName": "beta",
+    "packageName": "io.github.pascalgrimaud.sample",
+    "packageFolder": "io/github/pascalgrimaud/sample",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Yzc0OWYzZjRlNDk3MTNjYWUxMjUwOTNmNzE4NzE1MGJjZDY5Y2ZlMjRlNWY3MmQwZjgxOTI2OTQ0MTNiZjk0MDI5ZTU4MWMzN2MyMWMwZWJkODU0OWIwM2UwODg0ZjRhNjYwMDU3ZWZjNmQ3Nzk0MTNjZmY4Yjc1MWIwMmM0MWU=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1575407300943,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.3.0"
+      }
+    ],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": ["en"],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.3.0"
+      }
+    ]
+  },
+  "generator-jhipster-vuejs": {
+    "jhipsterVersion": "6.5.1",
+    "applicationType": "monolith",
+    "baseName": "beta",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "vue",
+    "clientTheme": "cerulean",
+    "clientThemeVariant": "dark"
+  }
+}
